@@ -1,10 +1,4 @@
 {
-    "extension": [
-        "js",
-        "html",
-        "css",
-        "json"
-    ],
     "rewrites": [
         {
             "source": "/api/(.*)",
