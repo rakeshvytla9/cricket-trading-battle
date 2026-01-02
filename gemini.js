@@ -19,10 +19,15 @@ class GeminiAI {
 
             if (!response.ok) {
                 const err = await response.json();
-                throw new Error(err.error || 'API request failed');
+                console.error('API Error:', err);
+                return { error: err.error || `Server Error: ${response.statusText}` };
             }
 
             const data = await response.json();
+
+            // Handle error returned in successful 200 response (legacy)
+            if (data.error) return { error: data.error };
+
             return {
                 text: data.text,
                 success: true
@@ -74,6 +79,9 @@ User Question: "${query}"
 Task: Expert trading advice (Buy/Sell/Hold). Max 30 words.`;
 
         const result = await this.generateContent(prompt, { type: 'trading_advice' });
+        if (result.error) {
+            return `⚠️ Error: ${result.error}`;
+        }
         return result.text || "I'm analyzing the market data. Please try again in a moment.";
     }
 
