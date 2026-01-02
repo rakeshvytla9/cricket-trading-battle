@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Trading Battle - AI-Powered T20 Stock Trading | Gemini 3</title>
+    <meta name="description"
+        content="Trade cricket player stocks during live T20 match simulation. Make quick buy/sell decisions and beat the CPU!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+        <div class="start-container">
+            <div class="logo-section">
+                <div class="logo-icon">🏏📈</div>
+                <h1 class="game-title">CRICKET<br><span>TRADING BATTLE</span></h1>
+                <p class="tagline">Trade Fast. Profit Big. Win the Match.</p>
+                <div class="powered-by">
+                    <span>Powered by</span>
+                    <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345b6e4c76f3c8ebab6d8a.svg"
+                        alt="Gemini" class="gemini-logo">
+                    <span class="gemini-text">Gemini 3</span>
+                </div>
+            </div>
+
+            <div class="match-preview">
+                <div class="team team-left">
+                    <div class="team-flag">🇮🇳</div>
+                    <span>INDIA</span>
+                </div>
+                <div class="vs-badge">VS</div>
+                <div class="team team-right">
+                    <div class="team-flag">🇦🇺</div>
+                    <span>AUSTRALIA</span>
+                </div>
+            </div>
+
+            <div class="rules-card">
+                <h3>📊 How to Win</h3>
+                <ul>
+                    <li>🏏 Watch the T20 match unfold ball-by-ball</li>
+                    <li>📈 Player prices change based on performance</li>
+                    <li>⚡ Buy low, sell high - make quick decisions!</li>
+                    <li>🏆 Beat the CPU with higher profits to WIN</li>
+                </ul>
+            </div>
+
+            <button id="start-btn" class="btn-primary pulse">
+                <span>START MATCH</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+        <!-- Header Bar -->
+        <header class="game-header">
+            <div class="header-left">
+                <div class="match-info">
+                    <span class="team-names">IND vs AUS</span>
+                    <span class="match-stage" id="match-stage">1st Innings</span>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="score-display">
+                    <div class="score" id="score">0/0</div>
+                    <div class="overs">(<span id="overs">0.0</span> ov)</div>
+                </div>
+                <div class="run-rate">
+                    RR: <span id="run-rate">0.00</span> | REQ: <span id="required-rate">-</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="timer-section">
+                    <div class="timer-label">NEXT BALL IN</div>
+                    <div class="timer" id="timer">5</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Profit Comparison Bar -->
+        <div class="profit-bar">
+            <div class="profit-you">
+                <span class="profit-label">YOUR PROFIT</span>
+                <span class="profit-value" id="your-profit">₹0</span>
+            </div>
+            <div class="profit-vs">
+                <div class="profit-indicator" id="profit-indicator">
+                    <div class="indicator-fill" id="indicator-fill"></div>
+                </div>
+            </div>
+            <div class="profit-cpu">
+                <span class="profit-label">CPU PROFIT</span>
+                <span class="profit-value" id="cpu-profit">₹0</span>
+            </div>
+        </div>
+
+        <!-- Main Game Area -->
+        <main class="game-main">
+            <!-- Left Panel - Live Match -->
+            <aside class="panel panel-left">
+                <div class="panel-header">
+                    <h2>🏏 LIVE MATCH</h2>
+                </div>
+                <div class="current-players">
+                    <div class="batsman-on-strike">
+                        <span class="player-role">🏏 Striker</span>
+                        <span class="player-name" id="striker-name">V. Kohli</span>
+                        <span class="player-score" id="striker-score">0(0)</span>
+                    </div>
+                    <div class="bowler-bowling">
+                        <span class="player-role">🎳 Bowler</span>
+                        <span class="player-name" id="bowler-name">P. Cummins</span>
+                        <span class="player-figures" id="bowler-figures">0/0</span>
+                    </div>
+                </div>
+                <div class="ball-result" id="ball-result">
+                    <div class="result-icon">🏏</div>
+                    <div class="result-text">Match Starting...</div>
+                </div>
+                <div class="commentary-feed" id="commentary">
+                    <div class="commentary-item">Welcome to the Cricket Trading Battle! Trade wisely and beat the CPU!
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Center Panel - Player Stocks -->
+            <section class="panel panel-center">
+                <div class="panel-header">
+                    <h2>📈 PLAYER STOCKS</h2>
+                    <div class="cash-display">
+                        💰 Cash: <span id="your-cash">₹10,000</span>
+                    </div>
+                </div>
+                <div class="stocks-grid" id="stocks-grid">
+                    <!-- Player cards will be generated by JS -->
+                </div>
+            </section>
+
+            <!-- Right Panel - Portfolio -->
+            <aside class="panel panel-right">
+                <div class="panel-header">
+                    <h2>📊 YOUR PORTFOLIO</h2>
+                </div>
+                <div class="portfolio-list" id="portfolio-list">
+                    <div class="portfolio-empty">No holdings yet. Buy some stocks!</div>
+                </div>
+                <div class="portfolio-summary">
+                    <div class="summary-row">
+                        <span>Invested:</span>
+                        <span id="total-invested">₹0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Current Value:</span>
+                        <span id="current-value">₹0</span>
+                    </div>
+                    <div class="summary-row highlight">
+                        <span>Unrealized P&L:</span>
+                        <span id="unrealized-pnl">₹0</span>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Trade Modal -->
+    <div id="trade-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-player-name">Player Name</h3>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-price">
+                    <span class="label">Current Price:</span>
+                    <span class="value" id="modal-price">₹100</span>
+                    <span class="change" id="modal-change">+5%</span>
+                </div>
+                <div class="modal-holdings">
+                    <span class="label">Your Holdings:</span>
+                    <span class="value" id="modal-holdings">0</span>
+                </div>
+                <div class="quantity-selector">
+                    <button class="qty-btn" id="qty-minus">-</button>
+                    <input type="number" id="trade-qty" value="1" min="1" max="100">
+                    <button class="qty-btn" id="qty-plus">+</button>
+                </div>
+                <div class="trade-total">
+                    Total: <span id="trade-total">₹100</span>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="btn-buy" id="btn-buy">BUY 📈</button>
+                <button class="btn-sell" id="btn-sell">SELL 📉</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="end-screen" class="screen">
+        <div class="end-container">
+            <div class="result-badge" id="result-badge">
+                <span class="result-icon">🏆</span>
+                <span class="result-text" id="result-text">YOU WIN!</span>
+            </div>
+
+            <div class="final-scores">
+                <div class="final-card you">
+                    <h3>YOUR PROFIT</h3>
+                    <div class="final-profit" id="final-your-profit">₹2,450</div>
+                </div>
+                <div class="vs-divider">VS</div>
+                <div class="final-card cpu">
+                    <h3>CPU PROFIT</h3>
+                    <div class="final-profit" id="final-cpu-profit">₹1,890</div>
+                </div>
+            </div>
+
+            <div class="match-summary">
+                <h3>📊 Match Summary</h3>
+                <div class="summary-stats" id="match-stats">
+                    <!-- Will be populated by JS -->
+                </div>
+            </div>
+
+            <button id="play-again-btn" class="btn-primary">
+                <span>PLAY AGAIN</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- AI Trading Assistant Chat -->
+    <div id="ai-chat" class="ai-chat-panel">
+        <div class="chat-header">
+            <span class="chat-icon">🤖</span>
+            <span class="chat-title">AI Trading Assistant</span>
+            <span class="gemini-badge">Gemini 3</span>
+            <button id="chat-toggle" class="chat-toggle">−</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="chat-message ai">
+                <div class="message-content">Hi! I'm your AI trading assistant powered by Gemini. Ask me about player
+                    stocks, trading strategies, or match analysis!</div>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask about trading..." autocomplete="off">
+            <button id="chat-send" class="chat-send">→</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase.js"></script>
+    <script src="ml_predictor.js"></script>
+    <script src="gemini.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>

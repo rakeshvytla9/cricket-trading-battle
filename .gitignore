@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large data files (keep processed, ignore raw)
+data/raw/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

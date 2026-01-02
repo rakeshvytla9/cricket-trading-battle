@@ -1,0 +1,14 @@
+{
+    "name": "cricket-trading-battle",
+    "version": "1.0.0",
+    "description": "AI-Powered T20 Stock Trading Game",
+    "scripts": {
+        "start": "serve ."
+    },
+    "dependencies": {
+        "serve": "^14.2.0"
+    },
+    "engines": {
+        "node": "18.x"
+    }
+}

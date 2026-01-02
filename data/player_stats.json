@@ -1,0 +1,502 @@
+{
+  "Shubman Gill": {
+    "batting_sr": 136.67,
+    "batting_avg": 39.95,
+    "runs": 2277,
+    "balls_faced": 1666,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "F du Plessis": {
+    "batting_sr": 141.19,
+    "batting_avg": 40.52,
+    "runs": 2269,
+    "balls_faced": 1607,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "RD Gaikwad": {
+    "batting_sr": 135.32,
+    "batting_avg": 41.85,
+    "runs": 2176,
+    "balls_faced": 1608,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "V Kohli": {
+    "batting_sr": 130.99,
+    "batting_avg": 40.88,
+    "runs": 2126,
+    "balls_faced": 1623,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "AD Russell": {
+    "batting_sr": 153.49,
+    "batting_avg": 30.22,
+    "runs": 967,
+    "balls_faced": 630,
+    "bowling_economy": 9.72,
+    "bowling_sr": 10.833333333333334,
+    "wickets": 54,
+    "balls_bowled": 585
+  },
+  "KL Rahul": {
+    "batting_sr": 128.7,
+    "batting_avg": 48.48,
+    "runs": 2036,
+    "balls_faced": 1582,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "HV Patel": {
+    "batting_sr": 105.22,
+    "batting_avg": 9.31,
+    "runs": 121,
+    "balls_faced": 115,
+    "bowling_economy": 8.35,
+    "bowling_sr": 14.808988764044944,
+    "wickets": 89,
+    "balls_bowled": 1318
+  },
+  "Rashid Khan": {
+    "batting_sr": 158.59,
+    "batting_avg": 19.33,
+    "runs": 406,
+    "balls_faced": 256,
+    "bowling_economy": 7.5,
+    "bowling_sr": 18.972972972972972,
+    "wickets": 74,
+    "balls_bowled": 1404
+  },
+  "JC Buttler": {
+    "batting_sr": 140.14,
+    "batting_avg": 41.51,
+    "runs": 1868,
+    "balls_faced": 1333,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "SV Samson": {
+    "batting_sr": 141.15,
+    "batting_avg": 36.7,
+    "runs": 1835,
+    "balls_faced": 1300,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "RA Jadeja": {
+    "batting_sr": 132.45,
+    "batting_avg": 34.78,
+    "runs": 800,
+    "balls_faced": 604,
+    "bowling_economy": 7.4,
+    "bowling_sr": 24.695652173913043,
+    "wickets": 46,
+    "balls_bowled": 1136
+  },
+  "SP Narine": {
+    "batting_sr": 156.2,
+    "batting_avg": 18.34,
+    "runs": 642,
+    "balls_faced": 411,
+    "bowling_economy": 6.62,
+    "bowling_sr": 24.830188679245282,
+    "wickets": 53,
+    "balls_bowled": 1316
+  },
+  "YS Chahal": {
+    "batting_sr": 42.86,
+    "batting_avg": 15.0,
+    "runs": 15,
+    "balls_faced": 35,
+    "bowling_economy": 7.91,
+    "bowling_sr": 17.142857142857142,
+    "wickets": 84,
+    "balls_bowled": 1440
+  },
+  "GJ Maxwell": {
+    "batting_sr": 152.9,
+    "batting_avg": 30.14,
+    "runs": 1266,
+    "balls_faced": 828,
+    "bowling_economy": 7.74,
+    "bowling_sr": 22.61111111111111,
+    "wickets": 18,
+    "balls_bowled": 407
+  },
+  "HH Pandya": {
+    "batting_sr": 129.09,
+    "batting_avg": 28.68,
+    "runs": 1176,
+    "balls_faced": 911,
+    "bowling_economy": 8.99,
+    "bowling_sr": 25.954545454545453,
+    "wickets": 22,
+    "balls_bowled": 571
+  },
+  "AR Patel": {
+    "batting_sr": 129.14,
+    "batting_avg": 28.46,
+    "runs": 740,
+    "balls_faced": 573,
+    "bowling_economy": 7.22,
+    "bowling_sr": 25.558139534883722,
+    "wickets": 43,
+    "balls_bowled": 1099
+  },
+  "S Dhawan": {
+    "batting_sr": 123.29,
+    "batting_avg": 38.34,
+    "runs": 1572,
+    "balls_faced": 1275,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "SA Yadav": {
+    "batting_sr": 159.39,
+    "batting_avg": 34.89,
+    "runs": 1570,
+    "balls_faced": 985,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "YBK Jaiswal": {
+    "batting_sr": 149.1,
+    "batting_avg": 34.07,
+    "runs": 1567,
+    "balls_faced": 1051,
+    "bowling_economy": 36.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 1
+  },
+  "Avesh Khan": {
+    "batting_sr": 168.18,
+    "batting_avg": 37.0,
+    "runs": 37,
+    "balls_faced": 22,
+    "bowling_economy": 8.51,
+    "bowling_sr": 17.214285714285715,
+    "wickets": 70,
+    "balls_bowled": 1205
+  },
+  "Ishan Kishan": {
+    "batting_sr": 132.2,
+    "batting_avg": 28.1,
+    "runs": 1433,
+    "balls_faced": 1084,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "RG Sharma": {
+    "batting_sr": 128.02,
+    "batting_avg": 25.42,
+    "runs": 1398,
+    "balls_faced": 1092,
+    "bowling_economy": 11.14,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 7
+  },
+  "Abhishek Sharma": {
+    "batting_sr": 150.3,
+    "batting_avg": 26.83,
+    "runs": 1234,
+    "balls_faced": 821,
+    "bowling_economy": 8.32,
+    "bowling_sr": 25.5,
+    "wickets": 8,
+    "balls_bowled": 204
+  },
+  "VR Iyer": {
+    "batting_sr": 132.6,
+    "batting_avg": 31.57,
+    "runs": 1326,
+    "balls_faced": 1000,
+    "bowling_economy": 10.36,
+    "bowling_sr": 28.0,
+    "wickets": 3,
+    "balls_bowled": 84
+  },
+  "Mohammed Shami": {
+    "batting_sr": 72.0,
+    "batting_avg": 6.0,
+    "runs": 18,
+    "balls_faced": 25,
+    "bowling_economy": 7.73,
+    "bowling_sr": 16.47761194029851,
+    "wickets": 67,
+    "balls_bowled": 1104
+  },
+  "S Dube": {
+    "batting_sr": 142.57,
+    "batting_avg": 34.18,
+    "runs": 1333,
+    "balls_faced": 935,
+    "bowling_economy": 12.59,
+    "bowling_sr": 51.0,
+    "wickets": 1,
+    "balls_bowled": 51
+  },
+  "MM Ali": {
+    "batting_sr": 131.23,
+    "batting_avg": 23.69,
+    "runs": 853,
+    "balls_faced": 650,
+    "bowling_economy": 7.01,
+    "bowling_sr": 20.24,
+    "wickets": 25,
+    "balls_bowled": 506
+  },
+  "MP Stoinis": {
+    "batting_sr": 140.11,
+    "batting_avg": 28.92,
+    "runs": 1041,
+    "balls_faced": 743,
+    "bowling_economy": 9.61,
+    "bowling_sr": 17.933333333333334,
+    "wickets": 15,
+    "balls_bowled": 269
+  },
+  "CV Varun": {
+    "batting_sr": 45.45,
+    "batting_avg": 15.0,
+    "runs": 15,
+    "balls_faced": 33,
+    "bowling_economy": 7.66,
+    "bowling_sr": 19.892307692307693,
+    "wickets": 65,
+    "balls_bowled": 1293
+  },
+  "DA Warner": {
+    "batting_sr": 127.72,
+    "batting_avg": 36.47,
+    "runs": 1313,
+    "balls_faced": 1028,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "Arshdeep Singh": {
+    "batting_sr": 74.36,
+    "batting_avg": 7.25,
+    "runs": 29,
+    "balls_faced": 39,
+    "bowling_economy": 8.59,
+    "bowling_sr": 19.21875,
+    "wickets": 64,
+    "balls_bowled": 1230
+  },
+  "SM Curran": {
+    "batting_sr": 127.27,
+    "batting_avg": 26.17,
+    "runs": 602,
+    "balls_faced": 473,
+    "bowling_economy": 9.85,
+    "bowling_sr": 21.771428571428572,
+    "wickets": 35,
+    "balls_bowled": 762
+  },
+  "N Rana": {
+    "batting_sr": 130.04,
+    "batting_avg": 29.24,
+    "runs": 1199,
+    "balls_faced": 922,
+    "bowling_economy": 8.46,
+    "bowling_sr": 26.0,
+    "wickets": 3,
+    "balls_bowled": 78
+  },
+  "RA Tripathi": {
+    "batting_sr": 139.6,
+    "batting_avg": 29.02,
+    "runs": 1248,
+    "balls_faced": 894,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "N Pooran": {
+    "batting_sr": 152.57,
+    "batting_avg": 33.73,
+    "runs": 1248,
+    "balls_faced": 818,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "KH Pandya": {
+    "batting_sr": 115.54,
+    "batting_avg": 19.61,
+    "runs": 647,
+    "balls_faced": 560,
+    "bowling_economy": 7.43,
+    "bowling_sr": 30.0,
+    "wickets": 30,
+    "balls_bowled": 900
+  },
+  "TA Boult": {
+    "batting_sr": 105.97,
+    "batting_avg": 17.75,
+    "runs": 71,
+    "balls_faced": 67,
+    "bowling_economy": 7.9,
+    "bowling_sr": 21.93103448275862,
+    "wickets": 58,
+    "balls_bowled": 1272
+  },
+  "R Ashwin": {
+    "batting_sr": 123.57,
+    "batting_avg": 18.48,
+    "runs": 388,
+    "balls_faced": 314,
+    "bowling_economy": 7.45,
+    "bowling_sr": 32.19047619047619,
+    "wickets": 42,
+    "balls_bowled": 1352
+  },
+  "SN Thakur": {
+    "batting_sr": 139.25,
+    "batting_avg": 14.39,
+    "runs": 259,
+    "balls_faced": 186,
+    "bowling_economy": 9.03,
+    "bowling_sr": 21.5,
+    "wickets": 48,
+    "balls_bowled": 1032
+  },
+  "RR Pant": {
+    "batting_sr": 138.6,
+    "batting_avg": 35.59,
+    "runs": 1210,
+    "balls_faced": 873,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "K Rabada": {
+    "batting_sr": 112.5,
+    "batting_avg": 13.5,
+    "runs": 81,
+    "balls_faced": 72,
+    "bowling_economy": 8.55,
+    "bowling_sr": 18.892857142857142,
+    "wickets": 56,
+    "balls_bowled": 1058
+  },
+  "Q de Kock": {
+    "batting_sr": 131.94,
+    "batting_avg": 30.72,
+    "runs": 1198,
+    "balls_faced": 908,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "Tilak Varma": {
+    "batting_sr": 139.28,
+    "batting_avg": 41.29,
+    "runs": 1156,
+    "balls_faced": 830,
+    "bowling_economy": 7.3,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 23
+  },
+  "JJ Bumrah": {
+    "batting_sr": 73.68,
+    "batting_avg": 9.33,
+    "runs": 28,
+    "balls_faced": 38,
+    "bowling_economy": 6.92,
+    "bowling_sr": 17.892857142857142,
+    "wickets": 56,
+    "balls_bowled": 1002
+  },
+  "Mohammed Siraj": {
+    "batting_sr": 90.0,
+    "batting_avg": 12.6,
+    "runs": 63,
+    "balls_faced": 70,
+    "bowling_economy": 8.12,
+    "bowling_sr": 24.537037037037038,
+    "wickets": 54,
+    "balls_bowled": 1325
+  },
+  "LS Livingstone": {
+    "batting_sr": 154.9,
+    "batting_avg": 29.97,
+    "runs": 869,
+    "balls_faced": 561,
+    "bowling_economy": 8.78,
+    "bowling_sr": 23.727272727272727,
+    "wickets": 11,
+    "balls_bowled": 261
+  },
+  "D Padikkal": {
+    "batting_sr": 117.41,
+    "batting_avg": 23.11,
+    "runs": 1086,
+    "balls_faced": 925,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "DA Miller": {
+    "batting_sr": 134.92,
+    "batting_avg": 41.31,
+    "runs": 1074,
+    "balls_faced": 796,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "PP Shaw": {
+    "batting_sr": 148.88,
+    "batting_avg": 26.65,
+    "runs": 1066,
+    "balls_faced": 716,
+    "bowling_economy": 0.0,
+    "bowling_sr": 100,
+    "wickets": 0,
+    "balls_bowled": 0
+  },
+  "Kuldeep Yadav": {
+    "batting_sr": 85.14,
+    "batting_avg": 25.2,
+    "runs": 126,
+    "balls_faced": 148,
+    "bowling_economy": 7.99,
+    "bowling_sr": 18.574468085106382,
+    "wickets": 47,
+    "balls_bowled": 873
+  }
+}
