@@ -19,8 +19,8 @@ export default async function handler(req, res) {
             }]
         };
 
-        // Switching back to Gemini 2.0 Flash (User Request)
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
+        // Upgrading to Gemini 3 Flash Preview (Cutting Edge)
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
