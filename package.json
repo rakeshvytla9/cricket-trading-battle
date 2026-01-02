@@ -2,6 +2,7 @@
     "name": "cricket-trading-battle",
     "version": "1.0.0",
     "description": "AI-Powered T20 Stock Trading Game",
+    "type": "module",
     "scripts": {
         "start": "serve ."
     },
